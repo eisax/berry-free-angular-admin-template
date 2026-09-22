@@ -1,0 +1,33 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "bug-fix",
+    "dev",
+    "fix/remove-obfuscated-code",
+    "master",
+    "security/malware-dev-nn6b7",
+    "security/malware-fix-remove-obfuscated-code-8gk6f",
+    "security/malware-stage-zu19z",
+    "stage"
+  ],
+  "parent": {
+    "bug-fix": "master",
+    "dev": "master",
+    "fix/remove-obfuscated-code": "master",
+    "master": null,
+    "security/malware-dev-nn6b7": "master",
+    "security/malware-fix-remove-obfuscated-code-8gk6f": "master",
+    "security/malware-stage-zu19z": "master",
+    "stage": "master"
+  },
+  "order": [
+    "master",
+    "bug-fix",
+    "dev",
+    "fix/remove-obfuscated-code",
+    "security/malware-dev-nn6b7",
+    "security/malware-fix-remove-obfuscated-code-8gk6f",
+    "security/malware-stage-zu19z",
+    "stage"
+  ]
+}
